@@ -28,7 +28,7 @@ terraform.tfstate, terraform.tfstate.backup | tfstate and tfstate.backup so that
 ## How to use
 
 1. Make sure you have installed [Terraform](https://www.terraform.io/)
-2. Get your OpenStack API credentials by requesting them at [https://help.mail.ru/mcs/support]()https://help.mail.ru/mcs/support)
+2. Get your OpenStack API credentials by requesting them at [https://help.mail.ru/mcs/support](https://help.mail.ru/mcs/support)
 3. Run the terraform-openrc.sh script. It will ask about username, tenant and password.
 4. Then run "terraform plan". If that fails, make sure you've used the correct credentials (run terraform-openrc.sh again)
 5. Last, run "terraform apply" to install all the infrastructure, described in the terraform.tf
